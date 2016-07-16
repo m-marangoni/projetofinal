@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+  background-color:  #ccccff;
+	background-image: url("anima/fundo.jpg");
+	background-repeat:repeat;
+	background-position: center;
+	background-size: 100%;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.menulink a {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-decoration: none;
+  color:  #ff77f6;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+.menulink a.active {
+    background-color: #b7abf7;
+    padding: 5px;
+    color: blue;
+}
+
+.menulink a:hover:not(.active) {
+    background-color: #b7abf7;
+    padding: 8px;
+    color: blue;
+}
+
+nav img {
+  padding-bottom: 20%;
+  padding-left: 10px;
+
+}
+div{
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+  background-color:;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+ section img {
+margin-left: 15%;
+align-self: center;
+max-width: 70%;
+}
+
+footer  {
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+height: 4%;
+weight: 100%;
+background-color: #b3a6f4;
+align-items: center;
+
+}
+footer p{
+	color: #ff84cb;
+	font-size: 2em;
+	align-items: center;
+	align-content: center;
+}
