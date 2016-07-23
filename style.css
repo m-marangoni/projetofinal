@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+ /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -65,15 +65,21 @@ body {
 .full{
 	display: block;
 margin: 0 auto;
-max-height: 900px;
+max-height: 880px;
 }
 
-@media (max-width:380px){
+@media (max-width:768px){
 	.full{
-		max-width: 200px;
+		max-height: 550px;
 	}
-
 }
+
+@media (max-width:375px){
+	.full{
+		max-height: 250px;
+	}
+}
+
 
 footer  {
 position: fixed;
