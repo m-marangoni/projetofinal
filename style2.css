@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -251,3 +252,157 @@ html {
     visibility: visible;
     z-index: 10;
 }
+=======
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #ffc0e4;
+	}
+
+
+nav{
+	background-color: transparent;
+}
+.dropbtn {
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+		opacity: 100%;
+		background-color: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	  font-family: 'Aldrich', sans-serif;
+	  color: #ff84cb;
+	  font-size: 1.5em;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: blue;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	 opacity: 0.5;
+}
+
+h1{
+	position: absolute;
+	justify-content:flex-start;
+	font-family: 'Aldrich', sans-serif;
+	color: #ff84cb;
+	font-size: 6em;
+	display: inline-block;
+	margin-left: 30%;
+}
+
+#bgelements{
+	position: fixed;
+	display: block;
+	margin-left: 50%;
+	margin-right: 0;
+  justify-content: flex-end;
+
+}
+
+
+
+
+footer  {
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+height: 6%;
+weight: 100%;
+background-color: #b3a6f4;
+}
+
+footer a{
+	align-items: center;
+	display: inline;
+	margin-top: 10px;
+  padding: 0 20px 0 20px;
+}
+
+.form {
+	margin-left: 30%;
+}
+
+input{
+		font-family:  sans-serif;
+		font-size: 1em;
+	color: blue;
+
+}
+
+#message{
+height: ;
+}
+>>>>>>> a2ca145236d4eb3678b52a66533c7f8e4eba39ab
