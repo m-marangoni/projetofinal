@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> bbd8b098ef3218e2ec31b53bd538d908fed0c2e7
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -163,6 +166,15 @@ html {
 
 .slider {
     background-color: blue;
+<<<<<<< HEAD
+    height: 34em;
+    left: 50%;
+    margin: -20em -20em;
+    padding: .7em;
+    position: absolute;
+    top: 50%;
+    width: 45.3em;
+=======
     height: 42em;
     left: 50%;
     margin: -23em -26em;
@@ -170,6 +182,7 @@ html {
     position: absolute;
     top: 50%;
     width: 56em;
+>>>>>>> bbd8b098ef3218e2ec31b53bd538d908fed0c2e7
 }
 
 .slider:after {
@@ -223,6 +236,10 @@ html {
     opacity: 1;
     visibility: visible;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> bbd8b098ef3218e2ec31b53bd538d908fed0c2e7
 .slider input:checked + label {
     background-color: magenta;
 }
@@ -240,10 +257,17 @@ html {
 }
 
 .slider img {
+<<<<<<< HEAD
+    height: 34em;
+    opacity: 0;
+    transition: .25s;
+    width: 45.3em;
+=======
     height: 42em;
     opacity: 0;
     transition: .25s;
     width: 56em;
+>>>>>>> bbd8b098ef3218e2ec31b53bd538d908fed0c2e7
     vertical-align: top;
     visibility: hidden;
 }
@@ -252,6 +276,26 @@ html {
     visibility: visible;
     z-index: 10;
 }
+<<<<<<< HEAD
+
+.slider li input:checked ~ article {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.slider article{
+	position: absolute;
+	font-family: 'Aldrich', sans-serif;
+	color: magenta;
+	font-size: 7em;
+	right: 0.2em;
+	top: 1.2em;
+	text-align:center;
+	display: block;
+	visibility: hidden;
+
+}
+=======
 =======
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -406,3 +450,4 @@ input{
 height: ;
 }
 >>>>>>> a2ca145236d4eb3678b52a66533c7f8e4eba39ab
+>>>>>>> bbd8b098ef3218e2ec31b53bd538d908fed0c2e7
