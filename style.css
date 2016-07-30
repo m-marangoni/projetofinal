@@ -47,62 +47,32 @@ table {
 	border-spacing: 0;
 }
 
-
-
+html {
+  background: url("anima/fundo.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 
 body {
   background-color:  #ccccff;
-	background-image: url("anima/fundo.jpg");
-	background-repeat:repeat;
-	background-position: center;
-	background-size: 100%;
-  font-family: 'Aldrich', sans-serif;
-}
-
-.menulink a {
-  font-family: 'Aldrich', sans-serif;
-  font-size: 1.6em;
-  font-weight: bold;
-  text-decoration: none;
-  color:  #ff77f6;
-  display: block;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 
-.menulink a.active {
-    background-color: #b7abf7;
-    padding: 5px;
-    color: blue;
+.full{
+	display: block;
+margin: 0 auto;
+max-height: 900px;
 }
 
-.menulink a:hover:not(.active) {
-    background-color: #b7abf7;
-    padding: 8px;
-    color: blue;
-}
+@media (max-width:380px){
+	.full{
+		max-width: 200px;
+	}
 
-nav img {
-  padding-bottom: 20%;
-  padding-left: 10px;
-
-}
-div{
-  list-style-type: none;
-  margin: 0;
-  padding: 2em;
-  background-color:;
-  width: 10%;
-  height: 100%;
-  position: fixed;
-  overflow: auto;
-}
-
- section img {
-margin-left: 15%;
-align-self: center;
-max-width: 70%;
 }
 
 footer  {
@@ -117,8 +87,7 @@ align-items: center;
 
 }
 footer p{
+	font-family: 'Aldrich', sans-serif;
 	color: #ff84cb;
 	font-size: 2em;
-	align-items: center;
-	align-content: center;
-}
+ }
